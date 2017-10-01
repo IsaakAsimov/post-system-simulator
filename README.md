@@ -52,4 +52,4 @@ This pseudo-code instructions are very similar to the real implementation
 in Haskell. In fact, the first instruction, is just a base case.
 
 If you want to see how it works with an example see:
-[EXAMPLE.md](https://github.com/Average-user/post-systems/EXAMPLE.md)
+[EXAMPLE.md](https://github.com/Average-user/post-system-simulator/EXAMPLE.md)

@@ -1,7 +1,7 @@
 # Example:
 
 I'll use the palindrome system defined in
-[Systems.hs](https://github.com/Average-user/post-systems/Systems.hs)
+[Systems.hs](https://github.com/Average-user/post-system-simulator/Systems.hs)
 That i'll show here anyway:
 
 ```Haskell
@@ -58,4 +58,4 @@ the pair applied would be like this (1#1, #), because a 1#1 was taken from the
 beginning and a # was pasted at the end.
 
 And in fact this pairs, and more are defined in
-[Systems.hs](https://github.com/Average-user/post-systems/Systems.hs)
+[Systems.hs](https://github.com/Average-user/post-system-simulator/Systems.hs)

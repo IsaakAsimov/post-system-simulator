@@ -1,10 +1,8 @@
 # Post System simulator
 
-A Post System is a rewriting system that can simulate a Post Machine. Where, a
-Post Machine is a mathematical model of computation that manipulates sequences
-of symbols in different states. Just like a Turing machine manipulates a tape.
+A Post System is a rewriting system that can simulate a Post Machine. A Post Machine is a mathematical model of computation that manipulates sequences of symbols in different states. Much like a Turing machine manipulates a tape.
 In fact Post Machines are equivalent to Turing machines, in terms of what is
-possible to do with them.
+possible to do with them, because both are Turing complete. 
 
 A Post System is not exactly the same that a Post Machine. The difference is
 that a Post System doesn't care about states, it just cares about words.
@@ -14,9 +12,9 @@ on 1936 in his paper called **Formulation 1**. But, he first published about
 Post Systems in 1943, even thought he started developing this in 1920.
 
 There are many different definitions of Post Systems, in fact, Emil Post
-himself described a few ones, but there are many others.
+himself described a few different ones, but there are many others.
 
-The purpose of this repository is to try to show a specific implementation of
+The purpose of this repository is to show a specific implementation of
 this model, and simulate it in Haskell.
 
 ## Definition:
@@ -28,8 +26,8 @@ To have a better understanding about this, I have to describe some notation
 first:
 
 First I'll have to make an order relation between words. So I'll say that:
--   A word **a** is less or equal than a worth **b**, iff **a** is a
-    prefix of **b**. Or in other words: **a** ≤ **b** iff there is a word **c**
+-   A word **a** is less or equal than a worth **b**, if **a** is a
+    prefix of **b**. Or in other words: **a** ≤ **b** if there is a word **c**
     such that, **ac = b**.
 
 Now that we now this, we will understand what are the instructions to follow,
